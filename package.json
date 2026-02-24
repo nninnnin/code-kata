@@ -6,7 +6,8 @@
     "test": "vitest",
     "test:run": "vitest run",
     "kata": "tsx cli/index.ts",
-    "server:list-rendering": "tsx katas/list-rendering/server/index.ts"
+    "server:list-rendering": "tsx katas/list-rendering/server/index.ts",
+    "timer": "tsx cli/timer.ts"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
