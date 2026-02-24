@@ -17,3 +17,8 @@ coverage
 # 환경변수
 .env
 .env.local
+
+# 카타 워크스페이스
+katas/*/workspace/node_modules
+katas/*/workspace/.next
+katas/*/workspace/.env.local
