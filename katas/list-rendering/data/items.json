@@ -1,0 +1,182 @@
+[
+  {
+    "id": 1,
+    "slug": "mechanical-keyboard-pro",
+    "name": "Mechanical Keyboard Pro",
+    "category": "electronics",
+    "price": 129000,
+    "createdAt": "2024-01-15",
+    "description": "Cherry MX 적축 스위치 기반의 풀사이즈 기계식 키보드. RGB 백라이트와 커스텀 매크로 기능을 지원하며, 알루미늄 케이스로 내구성이 뛰어나다."
+  },
+  {
+    "id": 2,
+    "slug": "wireless-mouse-x200",
+    "name": "Wireless Mouse X200",
+    "category": "electronics",
+    "price": 45000,
+    "createdAt": "2024-01-20",
+    "description": "2.4GHz 무선 연결을 지원하는 인체공학적 마우스. 최대 4000 DPI 센서와 최대 60시간 배터리 수명을 제공한다."
+  },
+  {
+    "id": 3,
+    "slug": "monitor-27-4k",
+    "name": "27인치 4K 모니터",
+    "category": "electronics",
+    "price": 489000,
+    "createdAt": "2024-02-01",
+    "description": "3840x2160 해상도의 IPS 패널 모니터. 144Hz 주사율과 1ms 응답속도를 지원하며, HDR400 인증을 받았다."
+  },
+  {
+    "id": 4,
+    "slug": "usb-c-hub-7in1",
+    "name": "USB-C 허브 7in1",
+    "category": "electronics",
+    "price": 39000,
+    "createdAt": "2024-02-10",
+    "description": "HDMI 4K, USB 3.0 x3, SD카드 슬롯, 100W PD 충전을 지원하는 7포트 USB-C 허브."
+  },
+  {
+    "id": 5,
+    "slug": "noise-cancelling-headphones",
+    "name": "노이즈 캔슬링 헤드폰",
+    "category": "electronics",
+    "price": 299000,
+    "createdAt": "2024-02-15",
+    "description": "하이브리드 ANC 기술로 최대 40dB 소음을 차단. 30시간 배터리와 고음질 코덱(LDAC)을 지원한다."
+  },
+  {
+    "id": 6,
+    "slug": "clean-code",
+    "name": "Clean Code",
+    "category": "books",
+    "price": 32000,
+    "createdAt": "2024-01-05",
+    "description": "로버트 C. 마틴의 클린 코드. 읽기 좋은 코드를 작성하는 원칙과 실천법을 담은 개발자 필독서."
+  },
+  {
+    "id": 7,
+    "slug": "designing-data-intensive-applications",
+    "name": "Designing Data-Intensive Applications",
+    "category": "books",
+    "price": 45000,
+    "createdAt": "2024-01-12",
+    "description": "대규모 데이터 시스템의 설계 원칙을 다루는 책. 분산 시스템, 데이터베이스 내부 구조, 스트리밍 등을 깊게 다룬다."
+  },
+  {
+    "id": 8,
+    "slug": "the-pragmatic-programmer",
+    "name": "The Pragmatic Programmer",
+    "category": "books",
+    "price": 28000,
+    "createdAt": "2024-01-18",
+    "description": "실용주의 프로그래머가 되기 위한 조언과 원칙을 담은 책. 20주년 기념판으로 현대적인 내용이 추가되었다."
+  },
+  {
+    "id": 9,
+    "slug": "system-design-interview",
+    "name": "System Design Interview",
+    "category": "books",
+    "price": 38000,
+    "createdAt": "2024-03-01",
+    "description": "대규모 시스템 설계 면접을 준비하기 위한 가이드. URL 단축기, 채팅 시스템 등 실제 사례를 다룬다."
+  },
+  {
+    "id": 10,
+    "slug": "refactoring-2nd",
+    "name": "Refactoring 2nd Edition",
+    "category": "books",
+    "price": 35000,
+    "createdAt": "2024-03-10",
+    "description": "마틴 파울러의 리팩터링 2판. JavaScript로 예시가 변경되었으며 레거시 코드를 개선하는 방법을 다룬다."
+  },
+  {
+    "id": 11,
+    "slug": "cotton-basic-tshirt",
+    "name": "코튼 베이직 티셔츠",
+    "category": "clothing",
+    "price": 19000,
+    "createdAt": "2024-02-20",
+    "description": "100% 순면 소재의 베이직 반팔 티셔츠. 남녀공용 오버핏으로 다양한 컬러를 제공한다."
+  },
+  {
+    "id": 12,
+    "slug": "slim-chino-pants",
+    "name": "슬림 치노 팬츠",
+    "category": "clothing",
+    "price": 49000,
+    "createdAt": "2024-02-25",
+    "description": "스트레치 소재의 슬림핏 치노 팬츠. 캐주얼과 비즈니스 캐주얼 모두 어울리는 베이직 아이템."
+  },
+  {
+    "id": 13,
+    "slug": "hoodie-zip-up",
+    "name": "집업 후드 집업",
+    "category": "clothing",
+    "price": 59000,
+    "createdAt": "2024-03-05",
+    "description": "기모 안감의 따뜻한 집업 후디. 캥거루 포켓과 조절 가능한 드로스트링이 있다."
+  },
+  {
+    "id": 14,
+    "slug": "linen-shirt",
+    "name": "린넨 셔츠",
+    "category": "clothing",
+    "price": 42000,
+    "createdAt": "2024-03-15",
+    "description": "여름용 린넨 혼방 반팔 셔츠. 통기성이 좋고 구김이 적어 관리가 편하다."
+  },
+  {
+    "id": 15,
+    "slug": "running-sneakers",
+    "name": "러닝 스니커즈",
+    "category": "clothing",
+    "price": 89000,
+    "createdAt": "2024-03-20",
+    "description": "경량 메시 소재의 러닝화. 충격 흡수 쿠션 기술과 미끄럼 방지 아웃솔로 운동 효율을 높인다."
+  },
+  {
+    "id": 16,
+    "slug": "cold-brew-coffee-kit",
+    "name": "콜드브루 커피 키트",
+    "category": "food",
+    "price": 24000,
+    "createdAt": "2024-01-25",
+    "description": "원두 50g + 콜드브루 필터백 세트. 물 500ml에 12시간 냉침하면 카페 수준의 콜드브루를 즐길 수 있다."
+  },
+  {
+    "id": 17,
+    "slug": "protein-bar-box",
+    "name": "프로틴 바 12개입",
+    "category": "food",
+    "price": 32000,
+    "createdAt": "2024-02-05",
+    "description": "개당 단백질 20g, 칼로리 200kcal의 고단백 프로틴 바. 초콜릿, 땅콩버터, 바닐라 3종 혼합 구성."
+  },
+  {
+    "id": 18,
+    "slug": "premium-olive-oil",
+    "name": "프리미엄 올리브 오일",
+    "category": "food",
+    "price": 18000,
+    "createdAt": "2024-02-12",
+    "description": "스페인산 엑스트라 버진 올리브 오일 500ml. 낮은 산도(0.2%)와 풍부한 폴리페놀 함량이 특징."
+  },
+  {
+    "id": 19,
+    "slug": "matcha-powder-premium",
+    "name": "프리미엄 말차 파우더",
+    "category": "food",
+    "price": 22000,
+    "createdAt": "2024-03-08",
+    "description": "일본 우지산 1등급 말차 파우더 30g. 선명한 녹색과 깊은 감칠맛이 특징이며 라떼, 베이킹에 모두 활용 가능."
+  },
+  {
+    "id": 20,
+    "slug": "granola-mix",
+    "name": "그래놀라 믹스",
+    "category": "food",
+    "price": 14000,
+    "createdAt": "2024-03-18",
+    "description": "귀리, 아몬드, 건포도, 코코넛 플레이크를 꿀로 구운 수제 그래놀라 300g. 무방부제, 무인공감미료."
+  }
+]
