@@ -1,0 +1,19 @@
+node_modules
+dist
+
+# pnpm
+.pnpm-store
+
+# 테스트 커버리지
+coverage
+
+# OS
+.DS_Store
+
+# 에디터
+.vscode/settings.json
+.idea
+
+# 환경변수
+.env
+.env.local

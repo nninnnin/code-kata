@@ -7,15 +7,28 @@
 
 # 기술 스택
 
-- 언어, 프레임워크, 주요 라이브러리
+- **언어**: TypeScript
+- **런타임**: Node.js
+- **TS 실행**: tsx
+- **테스트**: vitest
+- **패키지 매니저**: pnpm
 
 # 자주 쓰는 명령어
 
-- 빌드, 테스트, 실행 방법
+```bash
+pnpm test        # vitest watch 모드 (개발 중)
+pnpm test:run    # 전체 테스트 1회 실행
+pnpm kata        # kata CLI 실행
+```
 
 # 코딩 컨벤션
 
-- 네이밍 규칙, 파일 구조, 스타일
+- **파일/폴더명**: kebab-case
+- **함수/변수**: camelCase
+- **타입/인터페이스**: PascalCase
+- TypeScript strict 모드 유지
+- 카타 하나 = 폴더 하나 (`katas/[kata-name]/`)
+- 각 카타 폴더는 반드시 `README.md`, `solution.ts`, `solution.test.ts`, `meta.json` 포함
 
 # 로드맵
 
@@ -23,10 +36,19 @@
 
 # 중요한 결정 사항 (ADR)
 
-- 왜 이 기술을 선택했는지
-- 피해야 할 패턴
+- **Node.js**: 실제 과제 전형 환경과 일치시키기 위해 선택
+- **tsx**: 빌드 없이 TypeScript 직접 실행, ts-node보다 가벼움
+- **vitest**: TypeScript 친화적이고 빠름
+- **pnpm**: 빠른 설치, 효율적인 디스크 사용
+- **태그 기반 분류**: 하나의 카타가 여러 카테고리에 걸칠 수 있어 폴더 분류보다 유연함
+
+피해야 할 패턴:
+- 불필요한 의존성 추가
+- 과도한 추상화 (카타는 독립적이고 단순해야 함)
 
 # Claude에게 지시사항
 
-- 자동 커밋 금지 같은 규칙
-- 선호하는 작업 방식
+- 커밋은 반드시 확인을 받은 후에만 실행
+- 새 카타 추가 시 `templates/kata/` 구조를 그대로 복사
+- 카타 구현 파일에 과도한 주석 추가 금지 (코드 자체가 명확해야 함)
+- CLI 기능 추가 시 ROADMAP.md 체크박스 업데이트
